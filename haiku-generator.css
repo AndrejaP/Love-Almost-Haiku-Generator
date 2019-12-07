@@ -1,0 +1,41 @@
+body {
+	color: lightgrey;
+	font-family: 'Love Ya Like A Sister', cursive;
+	background: #333;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 24px;
+}
+.container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+h1 {
+	color: darkcyan;
+}
+.button {
+	background-color: darkcyan;
+	border: 3px solid darkcyan;
+	border-radius: 50%;
+	color: white;
+	width: 300px;
+	height: 100px;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 36px;
+	outline: none;
+
+}
+.button:hover {
+	background-color; #777;
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: grey;
+	font-size: 16px;
+}
+
